@@ -1,5 +1,13 @@
 # How to
 
+Class Available
+
+- BadRequestException
+- NotFoundException
+- UnAuthorizationException
+- UnProcessableException
+- BadRequestException
+
 ### Using
 
 build project or copy java-exception-handle-lib-0.0.1-SNAPSHOT.jar to your project
@@ -13,6 +21,12 @@ repositories {
 		dirs 'libs'
 	}
 }
+
+dependencies {
+    .....
+    compile group: 'com.osdnu', name: 'java-exception-handle-lib', version: '0.0.1-SNAPSHOT'
+}
+
 ```
 Reload gradle
 
